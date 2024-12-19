@@ -35,7 +35,7 @@ sudo apt update && sudo apt install terraform]
 
 
 
- ## terraform lifecycle
+## terraform lifecycle
  main.tf          --> write code
  terraform init   --> initailse terraform provider, download libraries, initailise modules , variables varify
  terraform plan   --> Blueprint infra
