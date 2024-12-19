@@ -15,3 +15,7 @@ variable "img_id" {
     description = "value of the image id"
   
 }
+
+variable "" {
+  
+}
