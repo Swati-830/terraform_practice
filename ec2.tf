@@ -39,6 +39,9 @@ variable "sec_groups" {
     description = "value of the security groups"
   
 }
-variable "" {
+variable "vpc_security_group_ids" {
+    type = list(string)
+    default = ["sg-0b3b3b3b3b3b3b3b3"]
+    description = "value of the security groups"
   
 }
