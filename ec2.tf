@@ -3,8 +3,8 @@ provider "aws" {
 }
 
 resource "aws_instance" "first" {
-    ami = "ami-0bee12a638c7a8942"
-    instance_type = "t2.micro"
+    ami = var.img_id
+    instance_type = var
     key_name = "central"
     security_groups = ["default"]
 }
