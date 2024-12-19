@@ -30,7 +30,7 @@ variable "key_name" {
   
 }
 
-variable "security_groups" {
+variable "sec_groups" {
     type = list(string)
     default = ["default"]
     description = "value of the security groups"
