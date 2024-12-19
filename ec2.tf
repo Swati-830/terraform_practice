@@ -22,3 +22,10 @@ variable "instance_type" {
     description = "value of the instance type"
   
 }
+
+variable "key_name" {
+    type = string
+    default = "central"
+    description = "value of the key name"
+  
+}
