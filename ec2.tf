@@ -1,3 +1,5 @@
+alias gp="git pull origin main"
+
 provider "aws" {
     region = "ca-central-1"
 }
