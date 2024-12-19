@@ -29,3 +29,10 @@ variable "key_name" {
     description = "value of the key name"
   
 }
+
+variable "security_groups" {
+    type = list(string)
+    default = ["default"]
+    description = "value of the security groups"
+  
+}
