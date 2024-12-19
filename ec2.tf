@@ -41,7 +41,7 @@ variable "sec_groups" {
 }
 variable "vpc_security_group_ids" {
     type = list(string)
-    default = ["sg-0b3b3b3b3b3b3b3b3"]
+    default = ["vpc-0086232a42236ffd5"]
     description = "value of the security groups"
   
 }
