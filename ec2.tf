@@ -16,6 +16,9 @@ variable "img_id" {
   
 }
 
-variable "" {
+variable "instance_type" {
+    type = string
+    default = "t2.micro"
+    description = "value of the instance type"
   
 }
