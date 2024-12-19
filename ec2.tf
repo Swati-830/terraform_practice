@@ -4,8 +4,8 @@ provider "aws" {
 
 resource "aws_instance" "first" {
     ami = var.img_id
-    instance_type = var
-    key_name = "central"
+    instance_type = var.instance_type
+    key_name = var.key_name
     security_groups = ["default"]
 }
 
