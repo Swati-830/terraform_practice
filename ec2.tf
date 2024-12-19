@@ -9,6 +9,7 @@ resource "aws_instance" "first" {
     instance_type = var.instance_type
     key_name = var.key_name
     security_groups = var.sec_groups
+    vpc_security_group_ids = 
 }
 
 variable "img_id" {
