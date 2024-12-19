@@ -46,3 +46,8 @@ sudo apt update && sudo apt install terraform]
 ## module
   .terraform/ 
   .terraform.lock.hcl 
+
+## terraform.tfstate
+terraform.tfstate - infra state, terraform refer tfstate first
+{basically in this file we have all sensitive information this file is very important to production team.
+It's create in pwd.  }
