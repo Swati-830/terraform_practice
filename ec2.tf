@@ -39,3 +39,6 @@ variable "sec_groups" {
     description = "value of the security groups"
   
 }
+variable "" {
+  
+}
