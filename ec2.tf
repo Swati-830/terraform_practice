@@ -1,7 +1,7 @@
 #  alias gp="git pull origin main"
 
 provider "aws" {
-    region = "ca-1"
+    region = "ca-central-1"
 }
 
 data "aws_subnet" "my_subnet" {
