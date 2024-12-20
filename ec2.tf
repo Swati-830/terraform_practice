@@ -51,7 +51,7 @@ variable "instance_type" {
 }
 
 variable "key_pair" {
-    default = "new-key-nv"
+    default = "central"
 }
 
 variable "subnet_id" {
