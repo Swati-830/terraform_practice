@@ -1,5 +1,5 @@
 variable "image_id" {
-    default = "ami-012967cc5a8c9f891"
+    default = "ami-0bee12a638c7a8942"
 }
 
 variable "instance_type" {
@@ -7,7 +7,7 @@ variable "instance_type" {
 }
 
 variable "key_pair" {
-    default = "new-key-nv"
+    default = "central"
 }
 
 variable "subnet_id_1" {
