@@ -55,7 +55,7 @@ variable "key_pair" {
 }
 
 variable "subnet_id" {
-    default = "subnet-091678d44aa5db41d"
+    default = "subnet-0c7f661e7c264e3c1"
 }
 
 # variable "sg_name" {
