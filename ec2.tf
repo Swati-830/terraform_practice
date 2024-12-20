@@ -42,7 +42,7 @@ resource "aws_instance" "instance_1" {
 
 variable "image_id" {
   type        = string
-  default     = "ami-012967cc5a8c9f891"
+  default     = "ami-0bee12a638c7a8942"
   description = "Enter AMI ID"
 }
 
